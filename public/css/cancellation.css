@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand {
+    margin-left: 1%;
+    cursor: not-allowed;
+}
+.group-a{
+text-decoration: none;
+cursor: pointer;
+}
+.btn-red{
+background-color: red;
+color: white;
+}
+.btn-red:hover{
+background-color: rgb(218, 5, 5);
+color: white;
+}
+nav{
+    background-color: red;
+    padding-left: 0%;
+}
+.nav-link{
+    margin-left: 30px;
+}
+.down{
+    display: none;
+}
+@media screen and (max-width:300px){
+    tr{
+        display: grid;
+    }
+}
+@media screen and (max-width:500px){
+    .down{
+        display: block;
+        margin-top: 3%;
+    }
+    .up{
+        display: none;
+    }
+    .text-end{
+        width: 50%;
+    }
+}

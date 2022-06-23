@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#touch{
+    margin-top: 7%;
+}
+.mt6{ 
+    margin-top: 6%;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+nav{
+    background-color: red;
+    padding-left: 0%;
+}
+ .nav-link{
+    margin-left: 30px;
+} 
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-red:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.group-a{
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .container{
+        margin-left: 10%;
+    }
+    .col-md-6{
+        margin-top: 5%;
+    }
+    .form-group{
+        margin-top: 5%;
+    }
+}

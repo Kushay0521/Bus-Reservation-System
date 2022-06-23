@@ -1,0 +1,19 @@
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-red:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.mt21{
+    margin-top: 21vh;
+}
+.passalert{
+position: absolute;
+z-index: 10;
+width: 75vw;
+top: 5%;
+left: 10%;
+
+}

@@ -1,0 +1,11 @@
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-red:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.mt{
+    margin-top: 3%;
+}

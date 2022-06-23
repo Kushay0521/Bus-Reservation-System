@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image{
+    background-image: url("../../images/road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+} 
+.group-a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav{
+    background-color: red;
+    padding-left: 0%;
+}
+.nav-link{
+    margin-left: 30px;
+} 
+.form-group{
+    color: white;
+}
+.margin-top{
+    margin-top: 10%;
+}
+.quotes{
+    font-size: 2.5vw;
+    font-weight: bolder;
+    color: white;
+    margin-left: 10%;
+    margin-top: 15%;
+    line-height: 3vw;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-red:hover{
+    background-color: rgb(218, 5, 5);
+    color: white;
+}
+.special{
+    margin-left: 0px;
+}
+#profile{
+    position: absolute;
+    z-index: 2;
+    left: 1%;
+    top: 8.5%;
+} 
+.navbar-brand {
+    margin-left: 1%;
+    cursor: pointer;
+}
+.passalert{
+position: absolute;
+width: 75vw;
+margin: 2vw 10vw;
+z-index: 20;
+}
+@media screen and (max-width:798px){
+    .col-md-6{
+        flex-grow: 1;
+        /* width: 100%; */
+    }
+    .quotes{
+        font-size: 4vw;
+        margin-top: 3%;
+        line-height: 5vw;
+    }
+}
+@media screen and (max-width:400px){
+    .quotes{
+        font-size: 5vw;
+        margin-top: 0%;
+        line-height: 6vw;
+    }
+}
